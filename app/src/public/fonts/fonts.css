@@ -1,0 +1,30 @@
+/**
+ * Fonts
+ */
+
+@font-face {
+  font-family: 'cinzeldecorative';
+  src: url('/fonts/cinzeldecorative-regular-webfont.woff2') format('woff2'),
+       url('/fonts/cinzeldecorative-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'opensansblack';
+  src: url('/fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+       url('/fonts/opensans-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
+       url('/fonts/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
