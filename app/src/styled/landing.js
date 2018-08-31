@@ -51,6 +51,13 @@ export const ProfileBox = styled.div`
     fill: ${color.white};
   }
   &.new {
+    cursor: pointer;
+    transition: ${color.shadowTransition};
+
+    &:hover {
+      box-shadow: ${color.shadow1};
+    }
+
     .name {
       display: flex;
       justify-content: space-between;

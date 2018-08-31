@@ -1,11 +1,6 @@
 const mongoose = require('mongoose');
 const Profile = mongoose.model('Profile');
 
-// Test Index
-exports.index = function(req, res) {
-  return res.json({hi:'hi'});
-}
-
 // Get Profile
 exports.getProfiles = async (req, res) => {
   const profiles = await Profile.find({});

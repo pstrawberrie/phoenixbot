@@ -1,5 +1,6 @@
 // Libraries
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import io from 'socket.io-client';
 import axios from 'axios';
@@ -96,7 +97,7 @@ export default class App extends React.Component {
       <div>
         <SmallH3>No Profiles Found</SmallH3>
         <ProfileBox className="new">
-          <div className="name">Add Profile &nbsp;&nbsp; <PlusCircle /></div>
+          <Link className="name" to="/profile/new">Add Profile &nbsp;&nbsp; <PlusCircle /></Link>
         </ProfileBox>
       </div>;
 
